@@ -3,6 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iraqitechhub.api", "iraqitechhub.api\iraqitechhub.api.csproj", "{B789F87D-0721-4288-9758-48DFAB791B0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iraqitechhub.application", "iraqitechhub.application\iraqitechhub.application.csproj", "{8978D5AF-F4C7-400E-927C-D5E0059E2FA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iraqitechhub.contracts", "iraqitechhub.contracts\iraqitechhub.contracts.csproj", "{44724498-9FB3-41F9-A5E4-C95DA97991E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iraqitechhub.domain", "iraqitechhub.domain\iraqitechhub.domain.csproj", "{0B5DDABC-218C-4DCC-A4B8-F6DF8B954C33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iraqitechhub.infrastructure", "iraqitechhub.infrastructure\iraqitechhub.infrastructure.csproj", "{FA258249-8DC8-419B-AD06-350967F3A3F4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +20,27 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B789F87D-0721-4288-9758-48DFAB791B0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B789F87D-0721-4288-9758-48DFAB791B0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B789F87D-0721-4288-9758-48DFAB791B0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B789F87D-0721-4288-9758-48DFAB791B0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8978D5AF-F4C7-400E-927C-D5E0059E2FA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8978D5AF-F4C7-400E-927C-D5E0059E2FA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8978D5AF-F4C7-400E-927C-D5E0059E2FA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8978D5AF-F4C7-400E-927C-D5E0059E2FA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44724498-9FB3-41F9-A5E4-C95DA97991E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44724498-9FB3-41F9-A5E4-C95DA97991E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44724498-9FB3-41F9-A5E4-C95DA97991E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44724498-9FB3-41F9-A5E4-C95DA97991E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B5DDABC-218C-4DCC-A4B8-F6DF8B954C33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B5DDABC-218C-4DCC-A4B8-F6DF8B954C33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B5DDABC-218C-4DCC-A4B8-F6DF8B954C33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B5DDABC-218C-4DCC-A4B8-F6DF8B954C33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA258249-8DC8-419B-AD06-350967F3A3F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA258249-8DC8-419B-AD06-350967F3A3F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA258249-8DC8-419B-AD06-350967F3A3F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA258249-8DC8-419B-AD06-350967F3A3F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
